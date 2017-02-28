@@ -1,0 +1,25 @@
+
+<!--index.wxml-->
+<scroll-view class="list-container">
+  <view class="list-item" wx:for="{{users}}">
+    <view>
+      <image src="{{item.avatar}}" mode="widthfix" class="avatar"></image>
+    </view>
+    <view class="user-info-container">
+      <view class="user-info-container-left">
+        <!--<view>
+          <text class="name">{{item.name}}</text>
+          <text>{{item.sex}}</text>
+        </view>
+        <view>
+          <text calss="job">{{item.job}}</text>
+          <text calss="location">{{item.location}}</text>
+        </view>-->
+        <button size="default"> 聊一聊 </button>
+      </view>
+      <view class="user-info-container-right">
+        <button type="primary"> 马上租(¥ {{item.price}}/时) </button>
+      </view>
+    </view>
+  </view>
+</scroll-view>

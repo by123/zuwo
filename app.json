@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/hire_other/hire_other",
+    "pages/me/me"
+  ],
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "我要租人",
+        "iconPath": "img/ing.png",
+        "selectedIconPath": "img/ing.png"
+      },
+      {
+        "pagePath": "pages/hire_other/hire_other",
+        "text": "出租自己",
+        "iconPath": "img/ing.png",
+        "selectedIconPath": "img/ing.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我",
+        "iconPath": "img/ing.png",
+        "selectedIconPath": "img/ing.png"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": true
+}
